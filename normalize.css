@@ -512,7 +512,6 @@ body {
   .work__layer:hover{opacity:0.9}*/
 
   .work__item--1{background-color:#FFFFFF;
-    position:absolute;top:0;right:0;bottom:0;left:0;
     background-image:url("/images/work/vrestate.jpg");
     background-size:contain}
   /*.work__layer--1{background-color:#00AAFF}*/
