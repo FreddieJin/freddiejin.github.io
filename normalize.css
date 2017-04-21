@@ -497,8 +497,8 @@ body {
     cursor:pointer;
     float:left;
     height:150px;
-    margin-right:0px;
-    margin-bottom:0px;
+    margin-right:16px;
+    margin-bottom:16px;
     mix-blend-mode:normal;
     padding-top:150px;
     position:relative;
@@ -508,12 +508,13 @@ body {
   .work__item span{color:#FFFFFF}
   .work__item:hover{opacity:1.0}
 
-  .work__layer{position:absolute;top:0;right:0;bottom:0;left:0;opacity:0.8;transition:opacity .1s}
+  .work__layer{position:absolute;top:0;right:0;bottom:0;left:0;opacity:0.8;transition:opacity .1s;background-color:#FAFBFF}
   .work__layer:hover{opacity:0.9}
   .work__item--1{background-color:#FFFFFF;
     background-image:url("/images/work/vrestate.jpg");
     background-size:contain}
-  .work__layer--1{background-color:#00AAFF}
+  .work__layer--1{}
+  /*.work__layer--1{background-color:#00AAFF}*/
   .work__item--2{background-color:#5500FF;
     background-image:url("/img/home/figma.jpg");
     background-size:cover}
