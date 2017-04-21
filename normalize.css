@@ -505,12 +505,12 @@ body {
     transition:background .1s;
     opacity:0.8;
     width:100%}
-  .work__item span{color:#FFFFFF}
+  .work__item span{color:#FAFBFF}
   .work__item:hover{opacity:1.0}
 
   .work__layer{position:absolute;top:0;right:0;bottom:0;left:0;opacity:0.8;transition:opacity .1s}
   .work__layer:hover{opacity:0.9}
-  .work__item--1{background-color:#FAFBFF;
+  .work__item--1{background-color:#FFFFFF;
     background-image:url("/images/work/vrestate.jpg");
     background-size:contain}
   .work__layer--1{}
