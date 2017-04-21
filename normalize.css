@@ -455,7 +455,7 @@ body {
     font-weight:600}
 
   .summary{float:left;
-    margin-top:40px}
+    margin-top:44px}
   .summary__text{color:#175CE5;
     font-size:18px;
     font-weight:400}
@@ -509,7 +509,7 @@ body {
   .work__item--1{background-color:#FFFFFF;
     background-image:url("/images/work/test.jpg");
     background-size:contain}
-  .work__layer--1{background-color:#00AAFF}
+  .work__layer--1{background-color:#FFFFFF}
   .work__item--2{background-color:#5500FF;
     background-image:url("/img/home/figma.jpg");
     background-size:cover}
