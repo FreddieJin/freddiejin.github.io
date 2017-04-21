@@ -449,11 +449,11 @@ body {
   .name{float:left;
     margin-right:64px;
     margin-top:32px}
-  .name__text{color:#FFFFFF;
+  .name__text{color:#081F4D;
     font-size:43px;
     font-weight:600}
   .summary{float:left;
-    margin-top:16px}
+    margin-top:48px}
   .summary__text{color:#175CE5;
     font-size:18px;
     font-weight:400}
@@ -479,7 +479,7 @@ body {
   .resume:visited,
   .resume:active{color:#175CE5;text-decoration:underline}
   .work{clear:both;margin-top:64px;max-width:800px;width:100%}
-  .work__header{color:#E57399;
+  .work__header{color:#175CE5;
     font-size:18px;
     font-weight:600;
     margin-bottom:16px;
@@ -543,11 +543,23 @@ body {
 
 @media screen and (min-width: 890px){
   .photos__list{column-count:3;column-gap:16px}
-}.blog{margin-top:64px}
-  .blog__header{color:#E57399;font-size:18px;font-weight:600;margin-bottom:16px;letter-spacing:1.5px;text-transform:uppercase}
-  .blog__list{list-style-type:none;padding-left:0}
-  .blog__entry{margin-bottom:16px}
-  .blog__entry a{color:#175CE5;text-decoration:none}
+}
+  
+  .personal{clear:both;
+    padding-top:64px;
+    max-width:800px;
+    width:100%}
+  .personal__header{color:#175CE5;
+    font-size:18px;
+    font-weight:600;
+    margin-bottom:16px;
+    letter-spacing:1.5px;
+    text-transform:uppercase}
+  .personal__body{color:#081F4D;
+    font-size:18px;
+    line-height:150%}
+
+
   .post__title{font-size:18px;display:block}
   .post__date{color:#B8C7E5;text-decoration:none}
   .photos__item{display:inline-block;margin-bottom:16px;position:relative;width:100%}
@@ -563,8 +575,10 @@ body {
     font-size:14px;text-align:center;-webkit-transition:color .1s;
     -moz-transition:color .1s;-ms-transition:color .1s;-o-transition:color .1s;transition:color .1s}
   .photos__see-more:hover{color:#175CE5;cursor:pointer}
+
+
   .links{margin-top:64px;padding-bottom:184px;width:100%}
-  .links__header{color:#E57399;font-size:18px;font-weight:600;margin-bottom:16px;letter-spacing:1.5px;text-transform:uppercase}
+  .links__header{color:#175CE5;font-size:18px;font-weight:600;margin-bottom:16px;letter-spacing:1.5px;text-transform:uppercase}
   .links__list{margin-top:8px}
   .links__icon{color:#B8C7E5;margin-right:16px;
     text-decoration:none;-webkit-transition:color .1s ease;
@@ -575,6 +589,8 @@ body {
   .links__icon:visited,
   .link__icon:link{color:#B8C7E5;text-decoration:none}
   .links__icon:hover{color:#175CE5}
+
+
   .todo{clear:both;margin-top:64px;max-width:800px;width:100%}
   .todo__header{color:#E57399;font-size:18px;font-weight:600;margin-bottom:16px;letter-spacing:1.5px;text-transform:uppercase}
   .todo__body{color:#081F4D;font-size:18px;line-height:150%}
