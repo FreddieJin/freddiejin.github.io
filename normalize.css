@@ -438,7 +438,7 @@ body {
 }.container{
   display:block;
   margin:0 auto;
-  padding-top:156px;
+  padding-top:100px;
   max-width:800px;
   padding-left:20px;
   padding-right:20px
@@ -446,17 +446,20 @@ body {
 
 @media screen and (min-width: 1056px){
   .container{padding-top:100px}}
+
   .name{float:left;
     margin-right:64px;
     margin-top:32px}
   .name__text{color:#000000;
     font-size:43px;
     font-weight:600}
+
   .summary{float:left;
-    margin-top:26px}
+    margin-top:36px}
   .summary__text{color:#175CE5;
     font-size:18px;
     font-weight:400}
+
   .about{clear:both;
     padding-top:64px;
     max-width:800px;
@@ -470,14 +473,17 @@ body {
   .about__body{color:#081F4D;
     font-size:18px;
     line-height:150%}
+
   .link,
   .link:hover,
   .link:visited,
   .link:active{color:#175CE5;text-decoration:none}
+
   .resume,
   .resume:hover,
   .resume:visited,
-  .resume:active{color:#175CE5;text-decoration:underline}
+  .resume:active{color:#175CE5;text-decoration:none}
+
   .work{clear:both;margin-top:64px;max-width:800px;width:100%}
   .work__header{color:#175CE5;
     font-size:18px;
@@ -497,10 +503,11 @@ body {
     transition:background .1s;
     width:100%}
   .work__item span{color:#FFFFFF}
+
   .work__layer{position:absolute;top:0;right:0;bottom:0;left:0;opacity:0.8;transition:opacity .1s}
   .work__layer:hover{opacity:0.9}
-  .work__item--1{background-color:#99DDFF;
-    background-image:url("/img/home/instantapps.png");
+  .work__item--1{background-color:#FFFFFF;
+    background-image:url("/img/work/test.jpg");
     background-size:contain}
   .work__layer--1{background-color:#00AAFF}
   .work__item--2{background-color:#5500FF;
@@ -523,6 +530,7 @@ body {
     background-image:url("/img/work/photography/photo-45.jpg");
     background-size:cover}
   .work__layer--6{background-color:#99AAFF}
+
   .work__item__text{bottom:32px;position:absolute;pointer-events:none}
   .work__item__text{bottom:32px;position:absolute;pointer-events:none}
   .work__item__title{font-size:16px;font-weight:600;display:block;padding:0 16px}
