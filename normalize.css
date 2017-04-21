@@ -503,38 +503,39 @@ body {
     padding-top:150px;
     position:relative;
     transition:background .1s;
-    opacity:0.8;
+    opacity:0.9;
     width:100%}
-  .work__item span{color:#FAFBFF}
+  .work__item span{color:#FFFFFF}
   .work__item:hover{opacity:1.0}
 
-  .work__layer{position:absolute;top:0;right:0;bottom:0;left:0;opacity:0.8;transition:opacity .1s}
-  .work__layer:hover{opacity:0.9}
+  /*.work__layer{position:absolute;top:0;right:0;bottom:0;left:0;opacity:0.8;transition:opacity .1s}
+  .work__layer:hover{opacity:0.9}*/
+
   .work__item--1{background-color:#FFFFFF;
+    position:absolute;top:0;right:0;bottom:0;left:0;
     background-image:url("/images/work/vrestate.jpg");
     background-size:contain}
-  .work__layer--1{}
   /*.work__layer--1{background-color:#00AAFF}*/
   .work__item--2{background-color:#5500FF;
     background-image:url("/img/home/figma.jpg");
     background-size:cover}
-  .work__layer--2{background-color:#BB99FF}
+  /*.work__layer--2{background-color:#BB99FF}*/
   .work__item--3{background-color:#F0DFC0;
     background-image:url("/img/home/hackthenorth.png");
     background-size:contain}
-  .work__layer--3{background-color:#F0B140}
+  /*.work__layer--3{background-color:#F0B140}*/
   .work__item--4{background-color:#FF002B;
     background-image:url("/img/home/code.png");
     background-size:cover}
-  .work__layer--4{background-color:#FF99AA}
+  /*.work__layer--4{background-color:#FF99AA}*/
   .work__item--5{background-color:#FF5500;
     background-image:url("/img/home/illustrations.jpg");
     background-size:cover}
-  .work__layer--5{background-color:#FFBB99}
+  /*.work__layer--5{background-color:#FFBB99}*/
   .work__item--6{background-color:#002AFF;
     background-image:url("/img/work/photography/photo-45.jpg");
     background-size:cover}
-  .work__layer--6{background-color:#99AAFF}
+  /*.work__layer--6{background-color:#99AAFF}*/
 
   .work__item__text{bottom:32px;position:absolute;pointer-events:none}
   .work__item__text{bottom:32px;position:absolute;pointer-events:none}
