@@ -502,7 +502,6 @@ body {
     mix-blend-mode:normal;
     padding-top:150px;
     position:relative;
-    transition:background .1s;
     opacity:0.9
     width:100%}
   .work__item span{color:#FFFFFF}
