@@ -455,7 +455,7 @@ body {
     font-weight:600}
 
   .summary{float:left;
-    margin-top:48px}
+    margin-top:52px}
   .summary__text{color:#175CE5;
     font-size:18px;
     font-weight:400}
@@ -506,11 +506,12 @@ body {
     width:100%}
   .work__item span{color:#FFFFFF}
 
-  .work__layer{position:absolute;top:0;right:0;bottom:0;left:0;opacity:0.1;transition:opacity .1s}
-  .work__layer:hover{opacity:0.0}
+  .work__layer{position:absolute;top:0;right:0;bottom:0;left:0;opacity:0.9;transition:opacity .1s}
+  .work__layer:hover{}
   .work__item--1{background-color:#FFFFFF;
     background-image:url("/images/work/test.jpg");
-    background-size:contain}
+    background-size:contain;
+    opacity:1.0}
   .work__layer--1{background-color:#FFFFFF}
   .work__item--2{background-color:#5500FF;
     background-image:url("/img/home/figma.jpg");
