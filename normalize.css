@@ -503,15 +503,15 @@ body {
     padding-top:150px;
     position:relative;
     transition:background .1s;
+    opacity:0.9
     width:100%}
   .work__item span{color:#FFFFFF}
 
-  .work__layer{position:absolute;top:0;right:0;bottom:0;left:0;opacity:0.9;transition:opacity .1s}
+  .work__layer{position:absolute;top:0;right:0;bottom:0;left:0}
   .work__layer:hover{opacity:1.0}
   .work__item--1{
     background-image:url("/images/work/vrestate.jpg");
-    background-size:contain;
-  }
+    background-size:contain;}
   .work__layer--1{}
   .work__item--2{background-color:#5500FF;
     background-image:url("/img/home/figma.jpg");
