@@ -449,11 +449,11 @@ body {
   .name{float:left;
     margin-right:64px;
     margin-top:32px}
-  .name__text{color:#081F4D;
+  .name__text{color:#000000;
     font-size:43px;
     font-weight:600}
   .summary{float:left;
-    margin-top:48px}
+    margin-top:36px}
   .summary__text{color:#175CE5;
     font-size:18px;
     font-weight:400}
