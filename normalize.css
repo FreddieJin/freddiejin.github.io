@@ -504,7 +504,7 @@ body {
     position:relative;
     transition:background .1s;
     opacity:0.9;
-    width:100%}
+    width:auto}
   .work__item span{color:#FFFFFF}
   .work__item:hover{opacity:1.0}
 
