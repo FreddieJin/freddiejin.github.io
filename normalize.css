@@ -525,17 +525,17 @@ body {
     background-image:url("/images/work/justsingtv.jpg");
     /*background-size:contain*/}
   /*.work__layer--3{background-color:#F0B140}*/
-  .work__item--4{background-color:#FF002B;
-    background-image:url("/img/home/code.png");
-    background-size:cover}
+  .work__item--4{/*background-color:#FF002B;*/
+    background-image:url("/images/work/molekart.jpg");
+    /*background-size:cover*/}
   /*.work__layer--4{background-color:#FF99AA}*/
-  .work__item--5{background-color:#FF5500;
-    background-image:url("/img/home/illustrations.jpg");
-    background-size:cover}
+  .work__item--5{/*background-color:#FF5500;*/
+    background-image:url("/images/illustrations/djrasescover.jpg");
+    /*background-size:cover*/}
   /*.work__layer--5{background-color:#FFBB99}*/
-  .work__item--6{background-color:#002AFF;
-    background-image:url("/img/work/photography/photo-45.jpg");
-    background-size:cover}
+  .work__item--6{/*background-color:#002AFF;*/
+    background-image:url("/images/photography/west4cover.jpg");
+    /*background-size:cover*/}
   /*.work__layer--6{background-color:#99AAFF}*/
 
   .work__item__text{bottom:32px;position:absolute;pointer-events:none}
