@@ -504,24 +504,26 @@ body {
     position:relative;
     transition:background .1s;
     opacity:0.9;
-    width:100%}
+    width:100%;
+    background-size:cover;
+    background-color:#FFFFFF}
   .work__item span{color:#FFFFFF}
   .work__item:hover{opacity:1.0}
 
   /*.work__layer{position:absolute;top:0;right:0;bottom:0;left:0;opacity:0.8;transition:opacity .1s}
   .work__layer:hover{opacity:0.9}*/
 
-  .work__item--1{background-color:#FFFFFF;
+  .work__item--1{/*background-color:#FFFFFF;*/
     background-image:url("/images/work/vrestate.jpg");
-    background-size:cover}
+    /*background-size:cover*/}
   /*.work__layer--1{background-color:#00AAFF}*/
-  .work__item--2{background-color:#5500FF;
-    background-image:url("/img/home/figma.jpg");
-    background-size:cover}
+  .work__item--2{/*background-color:#5500FF;*/
+    background-image:url("/images/work/justsing.jpg");
+    /*background-size:cover*/}
   /*.work__layer--2{background-color:#BB99FF}*/
-  .work__item--3{background-color:#F0DFC0;
-    background-image:url("/img/home/hackthenorth.png");
-    background-size:contain}
+  .work__item--3{/*background-color:#F0DFC0;*/
+    background-image:url("/images/work/justsingtv.jpg");
+    /*background-size:contain*/}
   /*.work__layer--3{background-color:#F0B140}*/
   .work__item--4{background-color:#FF002B;
     background-image:url("/img/home/code.png");
