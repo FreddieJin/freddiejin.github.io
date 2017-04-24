@@ -629,11 +629,13 @@ body {
   .work__img--3{margin-left:8px;margin-right:8px;width:30%}
   .back{fill:#B8C7E5;top:24px;left:24px;position:fixed}
 
-* {box-sizing:border-box}
+/** {box-sizing:border-box}*/
 
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
+  margin-bottom:24;
+  margin-top:24px;
   position: relative;
   margin: auto;
 }
