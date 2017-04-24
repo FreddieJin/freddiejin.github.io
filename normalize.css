@@ -634,10 +634,12 @@ body {
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
-  margin-bottom:24;
+  margin-bottom:24px;
   margin-top:24px;
+  margin-left:16px;
+  margin-right:16px;
   position: relative;
-  margin: auto;
+  /*margin: auto;*/
 }
 
 .mySlides {
