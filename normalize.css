@@ -455,7 +455,7 @@ body {
     font-weight:600}
 
   .summary{float:left;
-    margin-top:54px}
+    margin-top:32px}
   .summary__text{color:#175CE5;
     font-size:18px;
     font-weight:400}
@@ -617,7 +617,7 @@ body {
   .work__subsubheader,
   .work__subsubheader a{color:#B8C7E5;font-size:18px;font-weight:600;margin-top:32px}
   .work__subsubheader a{text-decoration:underline}
-  .work__body{color:#081F4D;font-size:18px;margin-top:16px;padding-bottom:16px;line-height:150%}
+  .work__body{color:#081F4D;font-size:18px;margin-top:12px;padding-bottom:16px;line-height:150%}
   .work__body a{color:#175CE5}
   .work__link{color:#081F4D;text-decoration:underline}
   .work__link:hover{color:#175CE5}
