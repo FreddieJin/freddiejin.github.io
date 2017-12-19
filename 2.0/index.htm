@@ -22,6 +22,7 @@
 <link rel="icon" href="." type="image/x-icon">
 
 <link href="/2.0/application.min.css" rel="stylesheet">
+<link href="/2.0/normalize.css" rel="stylesheet">
 <script type="text/javascript" async="" src="/2.0/analytics.js"></script>
 <script async="" src="/2.0/analytics.js"></script>
 <script async="" src="/2.0/analytics.js"></script>
@@ -119,8 +120,8 @@ CNE <span style="color: #7fc263;">Power of the Community </span>
 <li data-grid-item="md-1/2">
 <a class="work-grid__item" href="/work/legacy">
 <div class="work-card">
-<div class="work-card__hero" style="color: #000000;">
-<figcaption class="work-card__client">
+<div class="work-card2__hero" style="color: #000000;">
+<figcaption class="work-card2__client">
 <span class="badge" style="background-color: #000000;" aria-hidden="true">
 The Legacy Foundation
 </span>
@@ -138,7 +139,7 @@ The Legacy Foundation
 </div>
 </figure>
 </div>
-<h3 class="work-card__title" style="border-color: #000000;">
+<h3 class="work-card2__title" style="border-color: #000000;">
 Find <span style="color: #000000;">Your Legacy</span>
 </h3>
 </div>
@@ -148,100 +149,14 @@ Find <span style="color: #000000;">Your Legacy</span>
 </div>
 </section>
 
-<!--section class="home-info">
-<h2 class="screen-reader">About Viget</h2>
-<div class="wrapper--narrow">
-<div class="home-info__description text">
-<p><strong>We are designers, engineers, and strategists.</strong>&nbsp;We create award-winning&nbsp;<a href="https://www.viget.com/services/products">products</a>,&nbsp;<a href="https://www.viget.com/services/experiences">experiences</a>, and&nbsp;<a href="https://www.viget.com/services/tools">tools</a>&nbsp;that inspire customers and advance businesses. Happily independent since 1999.</p>
-</div>
-<a href="https://www.viget.com/services" class="button button--icon">
-<span>What we Offer</span>
-<svg xmlns="http://www.w3.org/2000/svg" width="22" height="16" viewBox="0 0 22 16"><path d="M13.66 0l-1.389 1.414 5.487 5.586h-17.276v2h17.275l-5.486 5.586 1.389 1.414 7.857-8-7.857-8z"></path></svg>
-</a>
-</div>
-</section>
-
-</main>
-<footer id="footer">
-<h2 class="screen-reader">Site Footer</h2>
-<!-- <div class="footer__cta block-colored">
-<div class="page-cta footer__cta">
-<div class="wrapper--narrow">
-<h3 class="page-cta__hdr">Let’s get to work. </h3>
-<div class="page-cta__content constrained">
-<p><strong>Have an unsolvable problem or audacious idea?</strong></p><p>We’d love to hear about it.&nbsp;</p>
-</div>
-<ul class="button-group">
-<li>
-<a href="https://www.viget.com/contact" class="button button--icon">
-<span>Contact Us</span>
-<svg xmlns="http://www.w3.org/2000/svg" width="22" height="16" viewBox="0 0 22 16"><path d="M13.66 0l-1.389 1.414 5.487 5.586h-17.276v2h17.275l-5.486 5.586 1.389 1.414 7.857-8-7.857-8z"></path></svg>
-</a>
-</li>
-</ul>
-</div>
-<div class="sayviget in-view" data-module="SayViget" data-offset="75%" data-enter-timeout="3300">
-<svg class="sayviget-bubble" xmlns="http://www.w3.org/2000/svg" width="43.62" height="53.48" viewBox="0 0 43.62 53.48">
-<path class="bubble" fill="#fff" d="M42.26 29.61c4.18-11.38-1.59-24.03-12.89-28.24-11.31-4.21-23.86 1.6-28.04 12.99s1.91 24.07 12.89 30.88c11.7 7.25 29.19 8.24 29.19 8.24l-9.74-13.06c.01 0 6.89-6.19 8.59-10.81z"></path>
-<path class="speaker" fill="#1395BA" d="M11.83 18.13v7h4l6 4v-15l-6 4h-4zm19.11-2.97c-.41-.37-1.04-.34-1.41.07-.18.2-.27.45-.26.72.01.27.13.51.33.69 1.44 1.31 2.23 3.08 2.23 4.97s-.79 3.66-2.23 4.97c-.2.18-.31.42-.33.69-.01.27.08.52.26.72.19.21.46.33.74.33.25 0 .49-.09.67-.26 1.86-1.69 2.89-3.98 2.89-6.45s-1.02-4.76-2.89-6.45zm-3.89 2.75c-.42-.36-1.05-.3-1.41.11-.36.42-.31 1.05.11 1.41.65.55 1.03 1.35 1.03 2.18 0 .83-.37 1.63-1.03 2.18-.42.36-.47.99-.11 1.41.19.22.47.35.76.35.24 0 .47-.08.65-.24 1.1-.94 1.73-2.29 1.73-3.71 0-1.41-.63-2.76-1.73-3.69z"></path>
-</svg>
-<svg class="sayviget-rat" xmlns="http://www.w3.org/2000/svg" width="98.76" height="93.02" viewBox="0 0 98.76 93.02"><path d="M46.59 40.63s-1.56-5.57-6-5.1c-2.01.22-2.86.95-4.7 2.58l1.5 2.32c0 .01 4.78-3.4 9.2.2zm49.07.39c4-6.2 4.13-13.98.35-21.9-2.63-5.52-5.03-9.19-8.21-9.21h-.02c-2.06 0-3.83 1.56-5.4 4.76-3.43 6.98-9.58 10.17-12.73 11.64-8.16-10.65-19.27-14.96-19.75-15.15l-1.95-.74c-.13-.49-.25-1.01-.34-1.57-.9-5.51-1.73-8.85-5.67-8.85-2.99 0-8.53 2.03-10.31 9.62-1.32 5.64-1.96 10.09 1.59 13.54-4.25 1.74-7.03 4.2-9.23 6.15-1.53 1.36-2.85 2.54-4.17 3.02l-.69.24c-2.88.98-9.61 3.26-8.61 10.45.11.77.24 1.53.38 2.29-.47.01-.94.05-1.41.11-.98.12-1.92.49-2.85.81-.93.33-1.84.69-2.74 1.1-.89.42-1.76.86-2.59 1.4l.05.09c.89-.39 1.8-.72 2.72-1.01.92-.3 1.85-.57 2.78-.79.94-.23 1.9-.33 2.82-.59.45-.13.9-.25 1.35-.39l.15.69c-.63.13-1.25.31-1.85.52-1.23.43-2.33 1.14-3.42 1.83-1.08.7-2.12 1.46-3.12 2.26-.95.81-1.91 1.66-2.79 2.58l.07.08c.98-.8 2-1.56 3.06-2.26 1.05-.71 2.12-1.37 3.23-1.96 1.11-.6 2.28-1.05 3.39-1.6.53-.26 1.07-.5 1.61-.74.14.57.29 1.13.45 1.69-.51.07-1.01.2-1.5.37-.82.28-1.52.8-2.22 1.3-.7.5-1.35 1.05-1.95 1.65-.59.62-1.14 1.26-1.56 2l.09.06c.54-.62 1.16-1.18 1.82-1.67.65-.51 1.34-.95 2.05-1.35.72-.4 1.49-.66 2.2-1.05l1.25-.7c2.69 9.13 8.2 17.55 16.22 24.76-.46 2.06-1.65 6.49-3.92 9.07l-2.49 2.83 8.57-.68-1.69 2.75 1.75.64c.43.16 10.82 3.91 24.58 3.91 20.11 0 30.13-12.51 33.51-17.89l.59-.94-5.45-6.5c2.11-1.81 4.11-3.81 5.78-6 0 0-2.31-5.28-6.32-8.97 3.96-.13 8.13 3.95 8.13 3.95-1.44-2.32-3.32-4.12-5.32-5.53 2.99-1.89 6.31-4.81 9.73-10.12zm-61.05-30.71c1.68-7.18 7.09-7.26 7.32-7.26.94 0 1.62 0 2.64 6.29.78 4.77 2.9 7.53 4.18 8.8-3.42-.61-7.42-.97-8.04-1.02l-5.93-.51 4.94 3.3c.01.01.74.49 1.72 1.25-.53.06-1.13.14-1.84.25-1.04.16-2.02.37-2.95.6-3.55-2.32-3.62-4.97-2.04-11.7zm48.32 39.04c-1.03-.52-2.05-.96-3.03-1.33 3.61-2.02 10.68-6.78 11.46-12 1.01-6.73.3-14.03-3.05-14.53-3.35-.5-5.35 8.86-6.99 14.95-1.72 6.4-10.3 8.59-10.3 8.59l2.19 1.28c-.52-.07-.83-.1-.83-.1 8.63 5.96 9.99 14.08 10.84 15.98-7.83 10.22-16.22 15.94-16.33 16 0 0 7.33-3.16 14.38-8.57l4.04 4.82c-4.17 6.2-13.27 15.53-30.3 15.53-9.95 0-18.22-2.1-21.72-3.14l2.85-4.63-7.65.61c1.12-2.07 1.86-4.33 2.33-6.06l.73.6c4.06 3.22 6.22 4.88 9.96 6.24 5.53 2.01 12.56 3.15 12.56 3.15-.33-.13-36.38-14.61-40.5-44.13-.6-4.33 3.07-5.95 6.56-7.14l.76-.26c1.87-.69 3.39-2.04 5.16-3.61 3.02-2.69 6.79-6.04 14.05-7.16 2.79-.43 3.55-.39 5.33-.21l4.29.43-3.05-3.03c-.29-.29-.59-.58-.9-.85 2.27.32 4.58.73 5.75 1.18l3.1 1.21-1.09-3.13c-.55-1.57-1.1-3.17-1.55-4.52 3.71 1.96 10 5.93 15.06 12.41-1.01.91-1.9 2.15-1.94 3.45-.06 1.7 1.3 5.99 1.3 5.99.13-.88.51-5.99 3.67-7.86l.28-.13c2.92-1.34 10.67-4.91 14.81-13.35 1.39-2.82 2.37-3.05 2.64-3.05.87 0 2.52 1.3 5.46 7.47 1.91 4.01 4.44 11.81-.16 18.94-3.67 5.65-7.04 8.26-10.17 9.96zm-26.74-3.63c-1.58-.21-3.17-.39-4.76-.53l-2.39-.21c-.8-.07-1.6-.14-2.4-.17-1.61-.07-3.22.04-4.82.24-1.6.21-3.18.54-4.71 1.09l.03.15 4.76.03c1.57.01 3.14.06 4.71.04l2.36-.03c.79.01 1.58.02 2.37.07 1.58.09 3.15.22 4.72.38 3.14.33 6.28.77 9.4 1.32 3.13.52 6.24 1.14 9.34 1.82l.04-.15c-3.03-.97-6.12-1.74-9.24-2.42-3.1-.64-6.24-1.21-9.41-1.63zm1.8 9.5c-3.37-1.46-6.77-2.88-10.24-4.1-3.48-1.19-7-2.27-10.71-2.66l-.04.14c3.32 1.67 6.78 2.82 10.22 4.04 3.45 1.19 6.9 2.37 10.3 3.7 3.4 1.32 6.77 2.74 10.08 4.29 3.32 1.53 6.61 3.14 9.75 5.01l.08-.13c-3.05-2.05-6.25-3.85-9.49-5.57-3.26-1.68-6.58-3.25-9.95-4.72zm3.59 8.87c-2.59-1.93-5.27-3.74-8.04-5.42-1.38-.84-2.78-1.66-4.18-2.46-1.4-.81-2.81-1.61-4.27-2.32-1.45-.72-2.95-1.35-4.47-1.91-1.52-.56-3.07-1.05-4.68-1.37l-.06.14c1.38.89 2.79 1.65 4.21 2.41 1.42.75 2.85 1.47 4.29 2.17s2.9 1.36 4.33 2.07c1.43.71 2.85 1.46 4.24 2.26 2.79 1.58 5.52 3.25 8.17 5.06 2.66 1.79 5.25 3.7 7.65 5.82l.11-.11c-1.11-1.17-2.31-2.26-3.54-3.3-1.21-1.05-2.47-2.06-3.76-3.04zm-30-13.41c-.88 1.08-2.33 1.99-2.87 2.32-.54.33-.46.2-1.28-.17-.7-.31-5.73-2.12-7.29-2.68-1.98-3.09-1.62-5.64-1.46-6.38 1.77 0 3.55-1.43 4.01-2.41.23-.5.08-.8-.03-.93-.35-.41-.9-.34-1.73-.1-.62.18-1.47.42-2.57.42-.33 0-.71-.11-1.07-.21-.62-.17-1.17-.27-1.46.02-.26.26-.15.73 0 1.08.36.86 1.18 1.77 2.23 2.04-.2.89-.5 3.44 1.41 6.56-.33.42-.98 1.23-1.24 1.23-.36 0-1.02-1.01-1.43-1.62s-.5.09.62 2.16c.79 1.44 1.08 1.69 1.53 1.69.46 0 .7-1.36 1.82-1.36s2.73.61 4.59 1.62c1.86 1.01 2.25 1.22 3.07 1.22.82 0 3.1-2.88 3.72-4 .62-1.11.32-1.58-.57-.5z"></path><defs><clippath clipPathUnits="objectBoundingBox" id="clip-triangle"><polygon points="0, 1 1, 0 1, 1"></polygon></clippath></defs></svg>
-<div class="waves-container">
-<svg class="waves">
-<use xlink:href="#dark-blue-waves"></use>
-</svg>
-<div class="diagonal-waves"></div>
-</div>
-<div class="help-text">
-<span>How</span> <span>do</span> <span>you</span> <span><strong><em>say</em></strong></span><br><span>Viget,</span> <span>anyway?</span>
-</div>
-<audio data-js="audio" preload="auto">
-<source src="/audio/viget.mp3">
-<source src="/audio/viget.ogg">
-</audio>
-</div>
-</div>
-</div> -->
 <div class="footer__content">
 <div class="inner">
-<div class="footer__contact">
+<!-- <div class="footer__contact">
 <a class="dotted-link" href="mailto:hello@viget.com?subject=Hello%2C%20Viget%21" aria-label="Send an email to hello at vihget dot com">hello@viget.com</a>
 <span> : </span>
 <a href="tel:7038910670" aria-label="Call vihget at 703 891 0670">703.891.0670</a>
-</div>
-<!-- <h3 class="screen-reader">Office Locations</h3> -->
-<!-- <ul class="footer__locations">
-<li class="h-card">
-<a class="dotted-link" href="https://www.viget.com/dc-metro-hq" aria-label="vihget Falls Church office in VA">
-Washington DC Metro
-</a>
-</li>
-<li class="h-card">
-<a class="dotted-link" href="https://www.viget.com/durham" aria-label="vihget Durham office in NC">
-Durham, NC
-</a>
-</li>
-<li class="h-card">
-<a class="dotted-link" href="https://www.viget.com/boulder" aria-label="vihget Boulder office in CO">
-Boulder, CO
-</a>
-</li>
-</ul> -->
-<!-- <div class="footer__newsletter">
-<a href="https://www.viget.com/newsletter" class="footer__newsletter__image" aria-hidden="true">
-<img src="./Viget _ Strategy, Design, Development_files/icon-quarterly-1.png" alt="The Viget Newsletter">
-</a>
-<div class="footer__newsletter__content -with-image">
-<a href="https://www.viget.com/newsletter" class="footer__newsletter__hdr">
-<h3>The Viget Newsletter</h3>
-</a>
-<p>A curated periodical featuring thoughts, opinions, and tools for building a better digital world.</p>
-<a href="https://www.viget.com/newsletter" class="button button--icon">
-<span>Check it out</span>
-<svg xmlns="http://www.w3.org/2000/svg" width="22" height="16" viewBox="0 0 22 16"><path d="M13.66 0l-1.389 1.414 5.487 5.586h-17.276v2h17.275l-5.486 5.586 1.389 1.414 7.857-8-7.857-8z"></path></svg>
-</a>
-</div>
 </div> -->
+
 <h3 class="screen-reader">Social Links</h3>
 <ul class="footer__social">
 <li>
@@ -275,10 +190,7 @@ Boulder, CO
 </a>
 </li>
 </ul>
-<!-- <p class="footer__copyright">
-<span>© 1999 – 2017 Viget Labs, LLC.</span>
-<a href="https://www.viget.com/terms-conditions">Terms</a> : <a href="https://www.viget.com/privacy-policy">Privacy</a> : <a href="http://sayviget.com/">Sayviget</a>
-</p> -->
+
 </div>
 </div>
 </footer>
@@ -292,21 +204,3 @@ Boulder, CO
     if ('visibilityState' in document) {
       document.documentElement.classList.add('enhanced');loadJS('/scripts/application.min.js?1512759875');}
   </script>
-
-
-<!--script type="text/javascript" id="">/*
- @preserve
- riveted.js | v0.6.0
- Copyright (c) 2015 Rob Flaherty (@robflaherty)
- Licensed under the MIT license
-*/
-var riveted=function(){function D(a){a=a||{};d=parseInt(a.reportInterval,10)||5;y=parseInt(a.idleTimeout,10)||30;k=a.gaGlobal||"ga";"function"==typeof window[k]&&(n=!0);"undefined"!=typeof _gaq&&"function"==typeof _gaq.push&&(p=!0);"undefined"!=typeof dataLayer&&"function"==typeof dataLayer.push&&(q=!0);r="gaTracker"in a&&"string"==typeof a.gaTracker?a.gaTracker+".send":"send";"function"==typeof a.eventHandler&&(t=a.eventHandler);"function"==typeof a.userTimingHandler&&(u=a.userTimingHandler);f="nonInteraction"in
-a&&(!1===a.nonInteraction||"false"===a.nonInteraction)?!1:!0;g(document,"keydown",e);g(document,"click",e);g(window,"mousemove",z(e,500));g(window,"scroll",z(e,500));g(document,"visibilitychange",A);g(document,"webkitvisibilitychange",A)}function z(a,g){var v,d,e,b=null,c=0,k=function(){c=new Date;b=null;e=a.apply(v,d)};return function(){var f=new Date;c||(c=f);var h=g-(f-c);return v=this,d=arguments,0>=h?(clearTimeout(b),b=null,c=f,e=a.apply(v,d)):b||(b=setTimeout(k,h)),e}}function g(a,b,c){a.addEventListener?
-a.addEventListener(b,c,!1):a.attachEvent?a.attachEvent("on"+b,c):a["on"+b]=c}function h(){clearTimeout(l);m=!0;clearTimeout(b)}function A(){(document.hidden||document.webkitHidden)&&h()}function B(){c+=1;0<c&&0===c%d&&t(c)}function E(){h();w=!0}function F(){w=!1}function G(){C=new Date;c=0;m=x=!1;clearTimeout(b);clearTimeout(l)}function e(){if(!w){if(!x){var a=new Date;a-=C;x=!0;u(a);b=setInterval(B,1E3)}m&&(m=!1,clearTimeout(b),b=setInterval(B,1E3));clearTimeout(l);l=setTimeout(h,1E3*y+100)}}var t,
-u,d,y,f,n,p,r,q,k,x=!1,m=!1,w=!1,c=0,C=new Date,b=null,l=null;return u=function(a){q?dataLayer.push({event:"RivetedTiming",eventCategory:"Riveted",timingVar:"First Interaction",timingValue:a}):(n&&window[k](r,"timing","Riveted","First Interaction",a),p&&_gaq.push(["_trackTiming","Riveted","First Interaction",a,null,100]))},t=function(a){q?dataLayer.push({event:"Riveted",eventCategory:"Riveted",eventAction:"Time Spent",eventLabel:a,eventValue:d,eventNonInteraction:f}):(n&&window[k](r,"event","Riveted",
-"Time Spent",a.toString(),d,{nonInteraction:f}),p&&_gaq.push(["_trackEvent","Riveted","Time Spent",a.toString(),d,f]))},{init:D,trigger:e,setIdle:h,on:F,off:E,reset:G}}();</script-->
-
-<!-- <script type="text/javascript" id="">dataLayer.push({event:"rivetedLoaded"});</script><script type="text/javascript" id="">(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b;a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)};a[b].l=1*new Date;c=e.createElement(f);d=e.getElementsByTagName(f)[0];c.async=1;c.src=g;d.parentNode.insertBefore(c,d)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create",google_tag_manager["GTM-5V7V"].macro('gtm5'),"auto");
-google_tag_manager["GTM-5V7V"].macro('gtm6')&&(ga("set","dimension5",google_tag_manager["GTM-5V7V"].macro('gtm7')),ga("set","dimension6",google_tag_manager["GTM-5V7V"].macro('gtm8')),ga("set","dimension7",google_tag_manager["GTM-5V7V"].macro('gtm9')),ga("set","dimension8",google_tag_manager["GTM-5V7V"].macro('gtm10')),ga("set","dimension9",google_tag_manager["GTM-5V7V"].macro('gtm12')));ga("send","pageview");</script> -->
-
-<!-- <script type="text/javascript" id="">riveted.init({reportInterval:20,idleTimeout:20,nonInteraction:!1});</script><script src="./Viget _ Strategy, Design, Development_files/saved_resource" type="text/javascript"></script><script src="https://px.ads.linkedin.com/collect/?time=1513635319128&amp;pid=93993&amp;url=https%3A%2F%2Fwww.viget.com%2F&amp;pageUrl=https%3A%2F%2Fwww.viget.com%2F&amp;ref=http%3A%2F%2Fwww.creativebloq.com%2Fportfolios%2Fexamples-712368%2F3&amp;bzid=39d5c6ef-4b2b-4e1b-a3f3-8694bfdae2c7&amp;cksm=48522CB4A0510D12&amp;fmt=js&amp;s=1" type="text/javascript"></script><img src="https://secure.adnxs.com/seg?t=2&amp;add=7326077,7326080,7326487,6991860,6991871,6991858,6991910,7324346,7324349,6992019,7326878,7326879,7324058,7324183,7326703,7326742,7326674,7323981,7326046,7326051,7326050&amp;redir=https%3A%2F%2Fsecure.adnxs.com%2Fseg%3Fadd%3D%26add_code%3Dwww_viget_com%2Cviget_com%26member%3D232%26redir%3Dhttps%253A%252F%252Fimp2.ads.linkedin.com%252Fl" width="1" height="1" border="0" alt="" style="display: none !important;"></body></html> -->
