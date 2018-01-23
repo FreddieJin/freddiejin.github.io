@@ -89,7 +89,7 @@ How are you today?
 <span class="home-intro__blinker">_</span>
 <br />
 <br />
-Take a look at some of my works below or learn more through my <a class="resume" href="/resume.pdf" target="_blank">resume</a>.
+Take a look at some of my works below or learn more through my <a class="resume" href="/resume.pdf" target="_blank" style="color:#175CE5;text-decoration:none">resume</a>.
 </p>
 </div>
 </section>
@@ -329,10 +329,14 @@ Design <span style="color: #0d2439;">And Direct </span>
 </a>
 </li>
 
+</ul>
+</div>
+</section>
+
 <div>
-<span class="home-hero__featured__client" style="border-color: #2f6897;">
-iContact
-<span style="color: #2f6897;">Product Development</span>
+<span class="home-hero__featured__client" style="color: #2f6897; border-color: #2f6897;">
+Personal
+<!-- <span style="color: #2f6897;">Product Development</span> -->
 </span>
 </div>
 
@@ -341,10 +345,6 @@ iContact
 <p>
 INFJ. I have broad interest in art and history. Archivist soul inside. 
 </p>
-</div>
-</section>
-
-</ul>
 </div>
 </section>
 
@@ -388,6 +388,16 @@ INFJ. I have broad interest in art and history. Archivist soul inside.
 <!-- </div> -->
 </div>
 </footer>
+
+<div class="links">
+  <a class="links__icon" href="https://linkedin.com/in/tianyi-jin" target="_blank">
+    <i class="fa fa-linkedin fa-lg"></i>
+  </a>
+  <a class="links__icon" href="https://github.com/FreddieJin" target="_blank">
+    <i class="fa fa-github fa-lg"></i>
+  </a>
+</div>
+
 <script>
     function loadJS(e) {
       var d=document,r=d.createElement('script'),o=d.getElementsByTagName('script')[0];
@@ -398,3 +408,18 @@ INFJ. I have broad interest in art and history. Archivist soul inside.
     if ('visibilityState' in document) {
       document.documentElement.classList.add('enhanced');loadJS('/scripts/application.min.js?1512759875');}
   </script>
+
+<style>
+  .links{margin-top:64px;padding-bottom:184px;width:100%}
+  .links__header{color:#175CE5;font-size:18px;font-weight:600;margin-bottom:16px;letter-spacing:1.5px;text-transform:uppercase}
+  .links__list{margin-top:8px}
+  .links__icon{color:#B8C7E5;margin-right:16px;
+    text-decoration:none;-webkit-transition:color .1s ease;
+    -moz-transition:color .1s ease;
+    -ms-transition:color .1s ease;
+    -o-transition:color .1s ease;
+    transition:color .1s ease}
+  .links__icon:visited,
+  .link__icon:link{color:#B8C7E5;text-decoration:none}
+  .links__icon:hover{color:#175CE5}
+</style>
