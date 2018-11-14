@@ -58,7 +58,7 @@ a:visited {
 
 .demo-frame {
 	margin: 0 auto;
-	padding-top: 56px;
+	padding-top: 0px;
 	display: block;
 	position: fixed;
     border: none;
@@ -71,7 +71,7 @@ a:visited {
 }
 
 .admin-bar .demo-frame  {
-	padding-top: 87px;
+	padding-top: 0px;
 }
 
 /* Logo */
@@ -316,6 +316,6 @@ a:visited {
 
 @media only screen and (max-width: 782px) {
 	.admin-bar .demo-frame  {
-		padding-top: 101px;
+		padding-top: 0px;
 	}
 }
